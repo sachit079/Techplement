@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><exit-techcalc></exit-techcalc></title>
+    <link rel="icon" href="images/icon.png">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+body{
+   
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ .popup{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    background: transparent;
+    /* backdrop-filter: blur(3px); */
+    /* border: 2px solid rgba(255, 255, 255, 0.307); */
+    /* border-radius: 20px; */
+    width: 350px;
+height: 450px;
+ }
+ .icon img{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+  .popup-content {
+    text-align: center;
+}
+#popupMessage{
+  font-size: 30px;
+  font-weight: 600;
+}
+    </style>
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="icon"><img src="images/exit1.jpg"></div><br>
+            <p  id="popupMessage"> Thank you Visit Again...</p><br>
+      </div>
+    </div>
+</body>
+</html>
